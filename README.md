@@ -10,12 +10,15 @@ A simple Django-based web application for managing lost and found items on a col
 - Admin Dashboard
 
 ### Technologies
-Python, Django, HTML, CSS, Bootstrap, SQLite
+Python, Django, HTML, CSS, SQLite
 
 ### Run the Project
 
 ```bash
-python manage.py migrate
+cd CampusLostFound
+python -m venv venv
+venv\Scripts\activate
+pip install django
 python manage.py runserver
 
 Admin Login
